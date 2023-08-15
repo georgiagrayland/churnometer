@@ -1,32 +1,6 @@
-## How to use this repo
+# Telecoms Business Customer Churnometer
 
-1. Fork this repo and copy the https URL of your forked churnometer repo
-
-1. Log into <a href="https://app.codeanywhere.com/" target="_blank" rel="noreferrer">CodeAnywhere</a> with your GitHub account.
-
-1. On your Dashboard, click on the New Workspace button
-
-1. Paste in the URL you copied from GitHub earlier
-
-1. Click Create
-
-1. Wait for the workspace to open. This can take a few minutes.
-
-1. Open a new terminal and <code>pip3 install -r requirements.txt</code>
-
-1. In the terminal type <code>pip3 install jupyter</code>
-
-1. In the terminal type <code>jupyter notebook --NotebookApp.token='' --NotebookApp.password=''</code> to start the jupyter server.
-
-1. Open port 8888 preview or browser
-
-1. Open the jupyter_notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open.
-
-1. Click the button Not Trusted and choose Trust.
-
-Note that the kernel says Python 3. It inherits from the workspace so it will be Python-3.8.12 as installed by our template. To confirm this you can use <code>! python --version</code> in a notebook code cell.
-
-Your workspace is now ready to use. When you want to return to this project, you can find it in your CodeAnywhere <a href="https://app.codeanywhere.com/" target="_blank" rel="noreferrer">Dashboard</a>. You should only create 1 workspace per project.
+The live dashboard app can be found [here](https://telecoms-business-churnometer-62db6ecc9af4.herokuapp.com/)
 
 ## Dataset Content
 The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/telecom-churn-dataset). We created then a fictitious user story where predictive analytics can be applied in a real project in the workplace.
@@ -68,7 +42,7 @@ Each row represents a customer, each column contains a customer attribute. The d
 	* This customer has a tenure level, which is the number of months this person has used our product/service.
 
 ## Business Requirements
-As a Data Analyst from Code Institute Consulting, you are requested by the Telco division to provide actionable insights and data-driven recommendations to a Telecom corporation. This client has a substantial customer base and is interested in managing churn levels and understanding how the sales team could better interact with prospects. The client has shared the data.
+As a Data Analyst, you are requested by the Telco division to provide actionable insights and data-driven recommendations to a Telecom corporation. This client has a substantial customer base and is interested in managing churn levels and understanding how the sales team could better interact with prospects. The client has shared the data.
 
 * 1 - The client is interested in understanding the patterns from the customer base so that the client can learn the most relevant variables correlated to a churned customer.
 * 2 - The client is interested in determining whether or not a given prospect will churn. If so, the client is interested to know when. In addition, the client is interested in learning from which cluster this prospect will belong in the customer base. Based on that, present potential factors that could maintain and/or bring the prospect to a non-churnable cluster.
